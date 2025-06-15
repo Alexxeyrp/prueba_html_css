@@ -1,59 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>productos.html</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <title>Alexxey corp</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
   </head>
   <body>
     <!-- Encabezado de la pagina -->
-    <header>
-      <div id="div_header">
-        <h1>Alexxhey corp</h1>
-        <img src="logo_alex.png" class="logo_img" alt="Logo Alexxhey" />
-      </div>
+    <header id="div_header">
+      <h1>Alexxhey corp</h1>
+      <img src="/imagenes/logo_alex.png" class="logo_img" alt="Logo-Alexxhey" />
     </header>
+    <br />
     <!-- botones de navegación -->
     <nav>
       <div class="contenedor-botones">
         <a href="index.html"><button>Inicio</button></a>
-        <a href="productos.html" class="activo"><button>Productos</button></a>
+        <a href="productos.html"><button>Productos</button></a>
         <a href="sobre_nosotros.html"><button>Sobre nosotros</button></a>
         <a href="presupuesto.html"><button>Presupuesto</button></a>
-        <a href="contacto.html"><button>Contacto</button></a>
+        <a href="contacto.html" class="activo"><button>Contacto</button></a>
       </div>
     </nav>
-    <h1 style="margin-left: 10px">Productos</h1>
-    <div class="galeria-productos">
-      <a
-        href="https://developer.mozilla.org/es/docs/Web/HTML"
-        target="_blank"
-        class="producto"
-      >
-        <img src="html-logo.jpg" alt="html5" />
-
-        <p><b>HTML5</b></p>
+    <section>
+      <h2 style="text-align: center">Ubicación</h2>
+      <a href="https://maps.app.goo.gl/5ydpw2nSTDFrBTa46" target="_blank">
+        <img
+          src="../imagenes/google maps.jpg"
+          alt="Google Maps"
+          style="
+            width: 300px;
+            height: 300px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+          "
+        />
       </a>
-      <a
-        href="https://www.hackaboss.com/blog/que-es-css#:~:text=El%20CSS%20podría%20definirse%20como,web%20e%20interfaces%20de%20usuario."
-        target="_blank"
-        class="producto"
-      >
-        <img src="css-logo.png" alt="CSS" />
-
-        <p><b>CSS</b></p>
-      </a>
-      <a
-        href="https://www.hackaboss.com/blog/que-es-css#:~:text=El%20CSS%20podría%20definirse%20como,web%20e%20interfaces%20de%20usuario."
-        target="_blank"
-        class="producto"
-      >
-        <img src="javascript-logo.jpg" alt="JAVASCRIPT" />
-
-        <p><b>JAVASCRIPT</b></p>
-      </a>
-    </div>
+      <p style="text-align: center">
+        Haz clic en el mapa para ver la ubicación en Google Maps
+      </p>
+    </section>
 
     <hr class="separador-footer" />
     <!-- Pie de pagina -->
@@ -66,7 +54,7 @@
             target="_blank"
           >
             <img
-              src="GitHub-logo.png"
+              src="../imagenes/GitHub-logo.png"
               alt="logo GitHub"
               width="100"
               height="50"
@@ -78,7 +66,7 @@
             target="_blank"
           >
             <img
-              src="Instagram-Logo.png"
+              src="../imagenes/Instagram-Logo.png"
               alt="logo Instagram"
               width="100"
               height="50"
